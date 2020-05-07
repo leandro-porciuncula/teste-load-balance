@@ -5,7 +5,7 @@ files:
     destination: /var/www/html/
 hooks:
   BeforeInstall:
-    - location: stop_server1
+    - location: stop_server
       timeout: 30
       runas: root
    
